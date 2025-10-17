@@ -20,7 +20,7 @@ const App: React.FC = () => {
         <ContactSection />
       </main>
       <footer className="text-center py-8 border-t border-gray-800">
-        <p className="text-gray-500">&copy; {new Date().getFullYear()} John Doe. All rights reserved.</p>
+        <p className="text-gray-500">&copy; {new Date().getFullYear()} Facundo David Carrizo Lucero. Todos los derechos reservados.</p>
       </footer>
     </div>
   );

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Project } from '../types';
 import { ChevronLeftIcon, ChevronRightIcon } from './icons/ChevronIcons';
+import { LiveIcon, RepoIcon } from './icons/ProjectIcons';
 
 interface ProjectCardProps {
   project: Project;
@@ -75,6 +76,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               {tech}
             </motion.span>
           ))}
+        </div>
+        <div className="flex space-x-4 mt-12">
+            <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-4 py-2 bg-gold-accent text-black font-semibold rounded-lg hover:bg-gold-hover transition-colors">
+                <LiveIcon />
+                Ver en vivo
+            </a>
+            <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-4 py-2 bg-gray-700 text-white font-semibold rounded-lg hover:bg-gray-600 transition-colors">
+                <RepoIcon />
+                Repositorio
+            </a>
         </div>
       </div>
     </motion.div>

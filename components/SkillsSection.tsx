@@ -29,7 +29,7 @@ const SkillsSection: React.FC = () => {
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-4xl font-bold text-white text-center mb-16"
         >
-          Mis Habilidades
+          Habilidades
         </motion.h2>
         
         <div className="grid md:grid-cols-[1fr_auto_1fr] md:gap-8 items-start">

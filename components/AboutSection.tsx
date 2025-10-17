@@ -30,7 +30,7 @@ const AboutSection: React.FC = () => {
           <motion.div variants={itemVariants} className="flex justify-center md:col-span-1">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-gold-accent shadow-lg">
               <img
-                src="https://picsum.photos/seed/profilepic/400/400"
+                src="./images/profile.jpg"
                 alt="Retrato de John Doe"
                 className="w-full h-full object-cover"
               />
@@ -41,10 +41,10 @@ const AboutSection: React.FC = () => {
               Acerca de mí
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Soy un apasionado desarrollador de software con una sólida experiencia en la creación de aplicaciones web modernas y eficientes. Mi enfoque se centra en escribir código limpio, escalable y mantenible, utilizando las últimas tecnologías del ecosistema de JavaScript.
+              Soy un apasionado desarrollador de software con una sólida experiencia en la creación de aplicaciones web modernas y eficientes. Mi enfoque se centra en escribir código limpio, escalable y mantenible, utilizando las últimas tecnologías del ecosistema de JavaScript y el BackEnd con Java.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Disfruto resolviendo problemas complejos y colaborando en equipos para construir productos que ofrezcan una experiencia de usuario excepcional. Siempre estoy aprendiendo y buscando nuevas formas de mejorar mis habilidades y aportar valor.
+              Disfruto resolviendo problemas complejos y colaborando en equipos para construir productos que ofrezcan una experiencia de usuario excepcional. Siempre estoy aprendiendo y buscando nuevas formas de mejorar mis habilidades y aportar valor en la tarea que se me asigne.
             </p>
           </motion.div>
         </motion.div>

@@ -61,7 +61,7 @@ const Header: React.FC = () => {
             >
                 <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
                     <a href="#inicio" className="text-2xl font-bold text-gold-accent hover:text-white transition-colors z-50">
-                        JD
+                        FC
                     </a>
                     <ul className="hidden md:flex items-center space-x-8">
                         {NAV_LINKS.map((link: NavLink) => (

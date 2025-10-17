@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold text-white mb-4"
         >
-          Hola, soy John Doe
+          Hola, ¡soy Facundo David Carrizo Lucero!
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-lg md:text-2xl text-gold-accent mb-8"
         >
-          Desarrollador de Software & Entusiasta de la Tecnología
+          Desarrollador de Software & Apasionado por la tecnologias
         </motion.p>
         <motion.a
           initial={{ opacity: 0, y: 20 }}

@@ -22,7 +22,7 @@ const ContactSection: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-gray-400 max-w-2xl mx-auto mb-8"
         >
-          Estoy abierto a nuevas oportunidades y colaboraciones. Si tienes alguna pregunta o simplemente quieres saludar, no dudes en contactarme.
+          Estoy abierto a nuevas oportunidades y colaboraciones. ¡No dudes en contactarme!
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -31,13 +31,13 @@ const ContactSection: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex justify-center items-center space-x-6"
         >
-          <a href="mailto:johndoe@example.com" className="text-gray-400 hover:text-gold-accent transition-colors">
+          <a href="mailto:facundocarri@hotmail.com.ar" className="text-gray-400 hover:text-gold-accent transition-colors">
             <MailIcon />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold-accent transition-colors">
+          <a href="https://github.com/facuud2" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold-accent transition-colors">
             <GithubIcon />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold-accent transition-colors">
+          <a href="https://www.linkedin.com/in/facundo-dev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold-accent transition-colors">
             <LinkedinIcon />
           </a>
         </motion.div>
