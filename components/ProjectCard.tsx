@@ -78,7 +78,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           ))}
         </div>
         <div className="flex space-x-4 mt-12">
-            <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-4 py-2 bg-gold-accent text-black font-semibold rounded-lg hover:bg-gold-hover transition-colors">
+            <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center px-4 py-2 bg-gold-accent text-black font-semibold rounded-lg hover:bg-gold-hover transition-colors hover:bg-yellow-500">
                 <LiveIcon />
                 Ver en vivo
             </a>
