@@ -30,7 +30,7 @@ const AboutSection: React.FC = () => {
           <motion.div variants={itemVariants} className="flex justify-center md:col-span-1">
             <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-gold-accent shadow-lg">
               <img
-                src="./images/profile.jpg"
+                src="profile.jpg"
                 alt="Retrato de John Doe"
                 className="w-full h-full object-cover"
               />
